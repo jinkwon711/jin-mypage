@@ -21,8 +21,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^signup/', views.signup),
     url(r'^$', views.home),
+    url(r'^thank-you/$', views.thankyou, name='thankyou'),
 
 
     #url(r'^/', views.about),
