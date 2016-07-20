@@ -3757,7 +3757,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 9px 10px;
   margin-top: 13px;
   margin-bottom: 13px;
-  background-color: transparent;
+  background-color: blue;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
